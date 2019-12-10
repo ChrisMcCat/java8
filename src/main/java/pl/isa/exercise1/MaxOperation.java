@@ -1,12 +1,13 @@
-package pl.isa.excercise1;
+package pl.isa.exercise1;
 
 import java.util.Collections;
 import java.util.List;
 
-public class MinOperation implements MathOperation {
+public class MaxOperation implements MathOperation {
 
     @Override
     public Integer calculate(List<Integer> numbers) {
-        return Collections.min(numbers);
+        return Collections.max(numbers);
     }
+
 }

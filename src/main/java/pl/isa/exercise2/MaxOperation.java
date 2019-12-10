@@ -1,4 +1,4 @@
-package pl.isa.excercise1;
+package pl.isa.exercise2;
 
 import java.util.Collections;
 import java.util.List;
