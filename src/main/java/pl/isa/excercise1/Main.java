@@ -1,5 +1,6 @@
 package pl.isa.excercise1;
 
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -11,6 +12,8 @@ public class Main {
 
         new Main().getResult(testData, maxOperation);
         new Main().getResult(testData, minOperation);
+
+//        Max maxed = number -> Collections.max(number);
     }
 
     private void getResult(List<Integer> numbers, MathOperation mathOperation){
